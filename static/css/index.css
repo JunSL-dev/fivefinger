@@ -1,0 +1,7 @@
+#first, #third{
+	background:url('../img/main.jpeg');
+}
+
+#second, #fourth{
+	background:url('../img/not_main.png');
+}
