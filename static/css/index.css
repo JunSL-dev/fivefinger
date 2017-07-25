@@ -3,26 +3,75 @@ html,body{
 	padding:0;
 	height:100%;
 	width:100%;
-	overflow:hidden;
+
+}
+
+body{
+	background:url("../img/main.jpeg");
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:1000px;
+}
+
+ul{
+	margin:0;
 }
 
 article{
+	position:relative;
+	top:820px;
 	height:100%;
 	width:100%;
+	background:#fff;
+	z-index:0;
 }
 
-article div{
+nav{
 	width:100%;
+	height:54px;
+	z-index:1;	
 }
 
-article div img{
-	width:100%;
+nav .container{
+	width:90%;
+	margin:0 auto;
+	
 }
 
-#first, #third{
-	background:url('../img/main.jpeg');
+#hide_nav{
+	position:fixed;
+	background:#ffcba4;
+	top:0;
+	display:none;
 }
 
-#second, #fourth{
-	background:url('../img/not_main.png');
+.r_div{
+	float:right;
+	height:54px;
+}
+
+.r_list li{
+	display:inline-block;
+	line-height:54px;
+	margin-right:25px;
+	font-weight:500;
+	color:#333333;
+}
+
+.r_list li a{
+	text-decoration:none;
+	color:#474544;
+}
+
+.r_list li:nth-of-type(2) a{
+	padding:9px 15px;
+	font-weight:300;
+	color:#fff;
+	background:#4e4e4e;
+	border-radius:5px;
+}
+
+.r_list li:nth-of-type(2) a:hover{
+	background:#444444;
 }
