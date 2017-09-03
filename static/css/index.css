@@ -21,7 +21,7 @@ html,body{
 	border-top: 2px solid rgba(255, 255, 255, .5);
 	border-bottom: 2px solid rgba(255, 255, 255, .5);
 	height: 250px;
-	width: 100%;
+	width: 110%;
 	overflow: hidden;
 	position: fixed;
 	margin: auto;
@@ -53,7 +53,7 @@ ul{
 
 article{
 	position:relative;
-	top:820px;
+	top:750px;
 	height:100%;
 	width:100%;
 	background:#fff;
