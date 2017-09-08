@@ -4,7 +4,7 @@ $(window).on('scroll',function(){
 	
 	console.log(height);
 
-	if( height>850 ){
+	if( height>=804 ){
 		$('#hide_nav').fadeIn(100);
 	} else{
 		$('#hide_nav').fadeOut(100);
@@ -32,8 +32,8 @@ $(document).ready(function(){
 				scrollEvent = false;
 			}});
 		} else if(m<1 && scrollEvent==false && cnt <3){
-			console.log("down");
-			scrollEvnet=true;
+			console.log("up");
+			scrollEvent=true;
 			cnt++;
 			$('html, body').stop().animate({
 				scrollTop:height*cnt		
