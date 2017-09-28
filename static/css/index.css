@@ -3,7 +3,7 @@ html,body{
 	padding:0;
 	height:100%;
 	width:100%;
-
+	overflow-y:none !important;
 }
 
 .uwi{
@@ -20,7 +20,7 @@ html,body{
 	border-top: 2px solid rgba(255, 255, 255, .5);
 	border-bottom: 2px solid rgba(255, 255, 255, .5);
 	height: 220px;
-	width: 110%;
+	width: 100%;
 	overflow: hidden;
 	position: absolute;
 	margin: auto;
@@ -128,7 +128,7 @@ nav .container{
 	position:absolute;
 	display:inline;
 	top:35%;
-	left:38%;
+	left:43%;
 	color:#fff;
 	font-weight:100;
 	font-size:60px;
