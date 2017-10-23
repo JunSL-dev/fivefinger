@@ -1,18 +1,24 @@
 $(window).on('scroll',function(){
 	
 	var height = $(document).scrollTop();
-	
+
 	console.log(height);
 
-	if( height>=804 ){
+	if( height>=$('.uwi').height() ){
 		$('#hide_nav').fadeIn(100);
 	} else{
 		$('#hide_nav').fadeOut(100);
 	}
 });
 
+$(window).resize(function(){
+	$('article').css('top',$('.uwi').height());
+});
+
 $(document).ready(function(){
-	
+
+	$('article').css('top',$('.uwi').height());
+
 	var scrollEvent = false;
 	var cnt = 0;
 
